@@ -35,9 +35,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       size: 150,
                     ),
                   ),
-                  const SizedBox(
-                    height: 10,
-                  ),
+                  const SizedBox(height: 10),
                   TextFormField(
                     validator: (value) {
                       if (value == null) {
